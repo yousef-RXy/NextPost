@@ -35,7 +35,7 @@ export default function Posts({ posts }) {
 
   return (
     <ul className="posts">
-      {posts.map((post) => (
+      {posts.map(post => (
         <li key={post.id}>
           <Post post={post} />
         </li>
